@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmtpazRzNzkxNmJ0MWwwMzNrYm03dW11eG1hb21iNWQyNjRzbmpxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S3bkh4BuHMyfC/giphy.gif');
+    background-size: cover;
+}
+
+main {
+    text-align: center;
+    color: white;
+}
+
+#centered-text {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: white;
+}
